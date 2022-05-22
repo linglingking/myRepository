@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: demo—service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        prefix: demo1
+        namespace: 549ae36e-0d28-4ec7-a9aa-fd17139961ef
+        username: nacos
+        password: nacos
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 549ae36e-0d28-4ec7-a9aa-fd17139961ef
+        username: nacos
+        password: nacos
+
+
+
